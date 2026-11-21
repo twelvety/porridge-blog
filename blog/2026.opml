@@ -5,6 +5,9 @@
   </head>
   <body>
     <outline text="November 2026" type="calendarMonth" date="2026-11">
+      <outline text="21st November" type="calendarDay" date="2026-11-21">
+        <outline text="Kicking the tires. This is nice and it reminds me of something... 🥁" created="Sat, 21 Nov 2026 16:24:51 GMT"/>
+      </outline>
       <outline text="18th November" type="calendarDay" date="2026-11-18">
         <outline text="Welcome to porridge" created="Wed, 18 Nov 2026 12:00:00 GMT">
           <outline text="This is a starter blog. Everything in it is an example: read it, try things, then edit or delete it and write your own. [See what it looks like published](https://alexjj.github.io/porridge-blog-template/)."/>

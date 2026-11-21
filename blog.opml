@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0" xmlns:porridge="https://github.com/alexjj/porridge">
   <head>
-    <title>My Daily</title>
-    <description>Notes, mostly daily.</description>
-    <ownerName>Your Name</ownerName>
-    <porridge:timezone>UTC</porridge:timezone>
+    <title>Phil Daily</title>
+    <description>Maybe this will stick?</description>
+    <ownerName>Phil Nunnally</ownerName>
     <porridge:homeDays>10</porridge:homeDays>
     <porridge:rssItems>25</porridge:rssItems>
     <porridge:language>en</porridge:language>
+    <porridge:timezone>America/New_York</porridge:timezone>
   </head>
   <body>
     <outline text="2026" type="include" url="blog/2026.opml"/>
