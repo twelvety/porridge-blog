@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0" xmlns:porridge="https://github.com/alexjj/porridge">
+  <head>
+    <title>2026</title>
+  </head>
+  <body>
+    <outline text="November 2026" type="calendarMonth" date="2026-11">
+      <outline text="18th November" type="calendarDay" date="2026-11-18">
+        <outline text="Welcome to porridge" created="Wed, 18 Nov 2026 12:00:00 GMT">
+          <outline text="This is a starter blog. Everything in it is an example: read it, try things, then edit or delete it and write your own. [See what it looks like published](https://alexjj.github.io/porridge-blog-template/)."/>
+          <outline text="![A bowl of porridge with a spoonful of cinnamon](/images/2026/11/porridge-bowl.webp)"/>
+          <outline text="Each day is a heading, and each line under a day is a post. A line with lines indented under it, like this one, becomes a post with a **title**; the lines under it are its paragraphs."/>
+          <outline text="Press **New entry** to start today's post. It goes at the top, under today's date, and a new month or year is added for you when it's needed."/>
+        </outline>
+        <outline text="A post can also be a single line with no title, like this one. Every post gets a link of its own: on the published site, click the **#** beside it." created="Wed, 18 Nov 2026 09:30:00 GMT"/>
+      </outline>
+      <outline text="16th November" type="calendarDay" date="2026-11-16">
+        <outline text="Formatting" created="Mon, 16 Nov 2026 19:45:00 GMT">
+          <outline text="Write in Markdown: **bold**, *italic*, `inline code`, and [links](https://commonmark.org/help/). The help panel on the right has the details."/>
+          <outline text="Indent lines under a paragraph to make a list:">
+            <outline text="Oats"/>
+            <outline text="Milk, or water if you're *brave*">
+              <outline text="Lists nest as deep as the outline does"/>
+            </outline>
+            <outline text="A pinch of salt"/>
+          </outline>
+          <outline text="A little HTML works too, for the odd &lt;mark&gt;highlight&lt;/mark&gt;."/>
+        </outline>
+        <outline text="To make a link, select some words and paste a web address over them, or press Ctrl-K (⌘-K on a Mac). [Like this](https://github.com/alexjj/porridge)." created="Mon, 16 Nov 2026 08:10:00 GMT"/>
+      </outline>
+      <outline text="12th November" type="calendarDay" date="2026-11-12">
+        <outline text="A draft: it's here in the editor, but it won't be published until you mark it as not a draft from its bullet menu." created="Thu, 12 Nov 2026 21:00:00 GMT" isDraft="true"/>
+        <outline text="Drafts and notes to self" created="Thu, 12 Nov 2026 18:20:00 GMT">
+          <outline text="Click any bullet for its menu. Mark a line as a **draft** and it stays off the site until you're ready."/>
+          <outline text="Or mark it as a **comment**, a note to yourself that's never published, like the next line."/>
+          <outline text="Remember to buy more oats." isComment="true"/>
+          <outline text="Select several lines at once by dragging across them, then press Tab to indent them all, or Alt-Shift-↑ and ↓ to move them."/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="October 2026" type="calendarMonth" date="2026-10">
+      <outline text="28th October" type="calendarDay" date="2026-10-28">
+        <outline text="Pictures" created="Wed, 28 Oct 2026 17:05:00 GMT">
+          <outline text="Add a photo from a bullet's menu, from the toolbar on a phone, or by pasting one in. Big photos are shrunk and turned into WebP before they're uploaded, so pages stay quick."/>
+          <outline text="![Another bowl of porridge, from the side](/images/2026/10/side-bowl.webp)"/>
+          <outline text="The description you give an image is shown as its caption, and visitors can click an image to see it full size."/>
+        </outline>
+      </outline>
+      <outline text="14th October" type="calendarDay" date="2026-10-14">
+        <outline text="Writing on a phone works too: the toolbar above the keyboard indents and moves lines and adds photos, and **Publish** puts the post on the site." created="Wed, 14 Oct 2026 07:40:00 GMT"/>
+        <outline text="Every published blog has a search page. It's the magnifier at the end of the navigation." created="Wed, 14 Oct 2026 07:15:00 GMT"/>
+      </outline>
+      <outline text="3rd October" type="calendarDay" date="2026-10-03">
+        <outline text="Where it all lives" created="Sat, 03 Oct 2026 10:00:00 GMT">
+          <outline text="Your blog is a few plain files in your own GitHub repository: settings in `blog.opml`, posts in `blog/2026.opml` (one file per year), pages in `pages/`, and photos in `images/`."/>
+          <outline text="**Save** keeps your changes on GitHub without changing the site. **Publish** saves and rebuilds the site, which takes about a minute."/>
+          <outline text="Pages like [About](/about/) sit alongside the blog. Add one with the **+** next to *Pages* in the sidebar."/>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

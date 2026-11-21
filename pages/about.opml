@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0" xmlns:porridge="https://github.com/alexjj/porridge">
+  <head>
+    <title>About</title>
+    <porridge:inNav>true</porridge:inNav>
+    <porridge:navOrder>1</porridge:navOrder>
+  </head>
+  <body>
+    <outline text="A few words about you and this blog. Pages are outlines too: a line on its own is a paragraph."/>
+    <outline text="Elsewhere">
+      <outline text="A line with lines under it becomes a heading, like the one above."/>
+      <outline text="[GitHub](https://github.com/) · [Mastodon](https://joinmastodon.org/)"/>
+    </outline>
+    <outline text="This page">
+      <outline text="It's in the site's navigation because of its settings: click the cog beside the page's title in the editor to change that, rename it, or make it a draft."/>
+    </outline>
+  </body>
+</opml>

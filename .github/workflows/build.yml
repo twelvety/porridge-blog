@@ -1,0 +1,46 @@
+# Builds the blog with porridge and publishes it to GitHub Pages.
+# Commits made with the editor's "Save" button include [skip ci] and don't
+# trigger this; "Save & Publish" does.
+name: Build blog
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # The repository's GitHub Pages address, used if Blog settings don't set one.
+      - id: pages
+        uses: actions/configure-pages@v5
+      # Always the latest porridge from main: changes to the site's look and
+      # features arrive on the next publish. Pin to a commit sha to freeze it.
+      - uses: alexjj/porridge@main
+        with:
+          output: _site
+          fallback-base-url: ${{ steps.pages.outputs.base_url }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
