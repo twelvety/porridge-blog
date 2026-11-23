@@ -5,6 +5,9 @@
   </head>
   <body>
     <outline text="November 2026" type="calendarMonth" date="2026-11">
+      <outline text="22nd November" type="calendarDay" date="2026-11-22">
+        <outline text="" created="Sun, 22 Nov 2026 16:59:31 GMT"/>
+      </outline>
       <outline text="21st November" type="calendarDay" date="2026-11-21">
         <outline text="Kicking the tires. This is nice and it reminds me of something... 🥁" created="Sat, 21 Nov 2026 16:24:51 GMT"/>
         <outline text="Listening to The Cakekitchen's [Time Flowing Backwards](https://thecakekitchen.bandcamp.com/album/time-flowing-backwards) after having gone down a Graeme Jefferies rabbit hole while stuck in the Atlanta airport during The Great Ground Stop of 2026. ![The Cakekitchen: Time Flowing Backwards](/images/2026/11/a2894995489-10-21113905.jpg)" created="Sat, 21 Nov 2026 16:26:42 GMT"/>
