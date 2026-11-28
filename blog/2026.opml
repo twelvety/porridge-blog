@@ -5,6 +5,9 @@
   </head>
   <body>
     <outline text="November 2026" type="calendarMonth" date="2026-11">
+      <outline text="27th November" type="calendarDay" date="2026-11-27">
+        <outline text="Just made it!" created="Sat, 28 Nov 2026 04:59:45 GMT"/>
+      </outline>
       <outline text="26th November" type="calendarDay" date="2026-11-26">
         <outline text="Thanksgiving dinner at our old friends' house" created="Fri, 27 Nov 2026 03:48:58 GMT">
           <outline text="![Thanksgiving plate with mac &amp; cheese, salad, stuffing, sweet potatoes, galette, beets, cranberry bread, roll, Athletic Free Wave IPA](/images/2026/11/img-8844-26225130.webp)"/>
